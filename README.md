@@ -1,6 +1,6 @@
 
-When I'm writing tests and debugging with RSpec I hate trying to parse `response.body` with my eyes
-so this opens a browser with the formatted HTML
+When I'm writing tests for an API and debugging with RSpec I hate trying to parse `response.body` with my eyes
+if there's ever a 500 or what have you. So this opens a browser with the formatted HTML
 
 ## Install
 
