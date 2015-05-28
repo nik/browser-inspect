@@ -1,24 +1,16 @@
-# Browser::Inspect
 
-TODO: Write a gem description
+When I'm writing tests and debugging with RSpec I hate trying to parse `response.body` with my eyes
+so this opens a browser with the formatted HTML
 
-## Installation
+## Install
 
 Add this line to your application's Gemfile:
 
-    gem 'browser-inspect'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install browser-inspect
+    gem 'browser-inspect', require: false
 
 ## Usage
 
-TODO: Write usage instructions here
+`BI.open(some_html)`
 
 ## Contributing
 
