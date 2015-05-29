@@ -10,6 +10,7 @@ Add this line to your application's Gemfile:
 
 ## Usage
 `require browser-inspect`
+
 `BI.open("<h1>Test</h1>")`
 
 ![example img](http://i.imgur.com/dupj5Tg.png)
